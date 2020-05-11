@@ -21,9 +21,12 @@ Mind Mapping
  
 DataBase
 -----------
+
 ![image](https://github.com/lainiao/dicom-web-view/blob/master/document/img/2.png)
+
 Main Flow
 -------------
+
 ![image](https://github.com/lainiao/dicom-web-view/blob/master/document/img/3.png)
 
 
