@@ -1,28 +1,28 @@
 
 
-虽然GitHub注册的很早2010年就注册了，但是基本上没有用过，这次打算使用Github的原因是期望可以和大家一起完成这个项目。
+Although GitHub was registered very early in 2010, it has basically not been used. The reason why I plan to use Github this time is to expect to complete this project with everyone.
 
 # dicom-web-view
 
-计划实现一个基于Web技术的Dicom 阅片系统。 初步打算实现基本的Dcm 文件展示，调窗，旋转，缩放，标记 ，基本测量等功能。该系统计划同时同时支持PC和Mobile。
+It is planned to implement a Dicom reading system based on Web technology. The initial plan is to realize the basic Dcm file display, window adjustment, rotation, zoom, mark, basic measurement and other functions. The system plans to support both PC and Mobile at the same time.
 
-项目计划使用Springboot 最后作为后端，Mysql作为数据库，MINIO 作为线下使用的存储中间件，Ali OSS 作为线上支持的存储中间件，前端阅片插件目前计划使用cornerstone.js
 
-cornerstone.js ，使用这个插件是因为目前这个算是开源里面相对比较成熟的插件，但是不排除后期自己写，因为我对在前端阅片使用原始的DCM文件进行阅片其实并不满意，最重要的因素是DCM文件较大，第二个因素是前端解析DCM文件其实是比较耗费计算资源。 如果这个项目完成以后，看看有没有时间，写一个实现，把DCM文件转成一种特殊的图片，在前端进行阅片。 只所以要转成一种特殊的图片的原因是因为，现有的DCM转图片，会将DCM文件转化成固定的窗宽窗位的图片，映射成只有256个灰度的图片，这样会丢失原始的图像信息，失去了阅片的意义。如果转成这种特殊的图片的话，就不会丢失像素信息，任然可以保持最高65536个灰度级的信息，不会丢失图像信息，当然这个以后在说，先实现功能，这个属于优化层面的功能。
+The project plans to use Springboot as the Server, Mysql as the database, MINIO as the storage middleware used offline, and Ali OSS as the storage middleware supported online. The front-end reading plugin currently plans to use cornerstone.js
+
+cornerstone.js, this plugin is used because it is currently a relatively mature plugin in open source, but it is not excluded to write it later, because I am not satisfied with the use of the original DCM file for front-end reading. The factor is that the DCM file is large. The second factor is that the front-end parsing of the DCM file is actually more computationally intensive. If the project is completed, see if there is time to write an implementation, turn the DCM file into a special picture, and read it in the front end. The reason why it needs to be converted into a special picture is because the existing DCM to picture conversion will convert the DCM file into a picture with a fixed window width and window level, and map it to a picture with only 256 grayscales, which will be lost The original image information has lost the meaning of reading. If it is converted into this special picture, the pixel information will not be lost. However, the information of up to 65536 gray levels can still be maintained, and the image information will not be lost. Of course, this is said later, first realize the function, this is the optimization level Function.
 
  
-因为自己比较懒，就慢慢更新这个项目，先把自己的思路放上来。
+Because I am lazy, I slowly updated this project and put my own ideas first.
  
-思维导图
+Mind Mapping
 ------------
  
 ![image](https://github.com/lainiao/dicom-web-view/blob/master/document/img/1.png)
  
-数据库
+DataBase
 -----------
 ![image](https://github.com/lainiao/dicom-web-view/blob/master/document/img/2.png)
- 
-主要流程
+Main Flow
 -------------
 ![image](https://github.com/lainiao/dicom-web-view/blob/master/document/img/3.png)
 
