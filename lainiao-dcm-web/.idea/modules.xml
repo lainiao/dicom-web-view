@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/lainiao-dcm-common/lainiao-dcm-common.iml" filepath="$PROJECT_DIR$/lainiao-dcm-common/lainiao-dcm-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lainiao-dcm-dao/lainiao-dcm-dao.iml" filepath="$PROJECT_DIR$/lainiao-dcm-dao/lainiao-dcm-dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lainiao-dcm-entity/lainiao-dcm-entity.iml" filepath="$PROJECT_DIR$/lainiao-dcm-entity/lainiao-dcm-entity.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lainiao-dcm-io/lainiao-dcm-io.iml" filepath="$PROJECT_DIR$/lainiao-dcm-io/lainiao-dcm-io.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lainiao-dcm-service/lainiao-dcm-service.iml" filepath="$PROJECT_DIR$/lainiao-dcm-service/lainiao-dcm-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lainiao-dcm-web.iml" filepath="$PROJECT_DIR$/lainiao-dcm-web.iml" />
+    </modules>
+  </component>
+</project>
